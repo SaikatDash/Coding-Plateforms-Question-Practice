@@ -7,7 +7,7 @@ Synced automatically by SolveBase.
 
 ## Codeforces
 
-Solutions by [Codeforces](https://codeforces.com/profile/), organized by difficulty rating.
+Solutions by [sd449420](https://codeforces.com/profile/sd449420), organized by difficulty rating.
 
 **Solved: 0**
 
