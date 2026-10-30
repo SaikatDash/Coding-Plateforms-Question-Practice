@@ -4,12 +4,12 @@ class Solution:
         ans = []
 
         def dfs_util(node):
-            visited[node] = True
+            visited[node] = 1
             ans.append(node)
 
-            for neighbor in adj[node]:
-                if not visited[neighbor]:
-                    dfs_util(neighbor)
+            for n in adj[node]:
+                if not visited[n]:
+                    dfs_util(n)
 
         dfs_util(0)
         return ans
