@@ -1,4 +1,4 @@
-from queue import deque
+from collections import deque
 class Solution:
     def bfs(self, adj):
         #visited = []
