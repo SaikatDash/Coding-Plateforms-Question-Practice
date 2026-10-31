@@ -3,7 +3,7 @@
 
 Synced automatically by SolveBase.
 
-**Total solved: 17**
+**Total solved: 18**
 
 ## Codeforces
 
@@ -20,14 +20,14 @@ Solutions by [sd449420](https://codeforces.com/profile/sd449420), organized by d
 
 Solutions organized by primary topic folder.
 
-**Solved: 9**
+**Solved: 10**
 
 | Topic | Solved |
 | --- | --- |
 | [1-two-sum](./leetcode/1-two-sum) | 1 |
 | [binary-search](./leetcode/binary-search) | 1 |
 | [breadth-first-search](./leetcode/breadth-first-search) | 2 |
-| [dynamic-programming](./leetcode/dynamic-programming) | 1 |
+| [dynamic-programming](./leetcode/dynamic-programming) | 2 |
 | [graph](./leetcode/graph) | 1 |
 | [tree](./leetcode/tree) | 2 |
 | [two-pointers](./leetcode/two-pointers) | 1 |
@@ -69,5 +69,5 @@ Solutions organized by difficulty level.
 | [Hard](./geeksforgeeks/Hard) | 1 |
 
 
-_Last updated: 2026-10-30_
+_Last updated: 2026-10-31_
 <!-- /cf-sync -->
