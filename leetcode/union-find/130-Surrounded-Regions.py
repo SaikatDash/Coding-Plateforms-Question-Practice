@@ -129,3 +129,33 @@ class Solution:
 #     ["X", "X", "X", "X"],
 #     ["X", "O", "X", "X"]
 # ]
+# ==========================================================
+# TIME COMPLEXITY: O(rows * cols)
+# ==========================================================
+#
+# Let:
+# rows = number of rows in the board
+# cols = number of columns in the board
+#
+# Step 1: We check every cell once in the first nested loop.
+#         That takes rows * cols operations.
+#
+# Step 2: DFS starts only from boundary 'O' cells.
+#         During DFS, each cell can be visited at most once,
+#         because we mark it in the visited matrix.
+#
+# Step 3: We again check every cell once in the second nested loop.
+#         That also takes rows * cols operations.
+#
+# So total work is:
+#     rows * cols      (first loop)
+#   + rows * cols      (DFS visits each cell at most once)
+#   + rows * cols      (second loop)
+#
+#     = 3 * rows * cols
+#
+# In Big-O notation, we remove constants:
+#     O(rows * cols)
+#
+# Beginner way to think:
+# If the board has 4 rows and
