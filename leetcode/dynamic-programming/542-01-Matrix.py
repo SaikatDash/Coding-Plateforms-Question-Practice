@@ -23,11 +23,24 @@ class Solution:
                 new_i, new_j = r + dr, c + dc
 
                 if (
-                    0 <= new_i < rows
-                    and 0 <= new_j < cols
-                    and not visited[new_i][new_j]
-                ):
-                    visited[new_i][new_j] = True
+                    0 <= new_i < rows and 0 <= new_j < cols and not visited[new_i][new_j]):
+                    visited[new_i][new_j] = 1
                     queue.append((new_i, new_j, d + 1))
 
         return distance
+
+if "__name__" =="__main__":
+    n= int(input("Enter number of nodes : "))
+    #graph = {i: [] for i in range(n+1)}
+    #graph = [0 for _ in range(n)]
+    graph = [[]for _ in range(n)]
+    edges = [(1, 2), (1, 3), (2, 4), (2, 5), (3, 6), (3, 7), (4, 8), (5, 9)]
+    '''
+    edges = int(input("Enter number of edges : "))
+    for _ in range(edges):
+        u, v = map(int, input().split())'''
+    for u,v in edges:
+        graph[u].append(v)
+        graph[v].append(u)
+    sol = Solution()
+    print(sol.updateMatrix)
