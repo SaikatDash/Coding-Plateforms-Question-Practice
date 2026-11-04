@@ -4,16 +4,16 @@
 
 ![Python](https://img.shields.io/badge/Python-solutions-3776AB?logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-solutions-00599C?logo=cplusplus&logoColor=white)
-![Problems solved](https://img.shields.io/badge/Problems%20solved-26-brightgreen)
+![Problems solved](https://img.shields.io/badge/Problems%20solved-27-brightgreen)
 ![Updated](https://img.shields.io/badge/Updated-2026--11--04-blue)
 
 ## Progress at a glance
 
 | Metric | Result |
 | --- | ---: |
-| **Total questions solved** | **26** |
-| **Solved today (2026-11-04)** | **2** |
-| **Solved this month (November 2026)** | **7** |
+| **Total questions solved** | **27** |
+| **Solved today (2026-11-04)** | **3** |
+| **Solved this month (November 2026)** | **8** |
 | **Solved before this month** | **19** |
 | **Platforms** | **2** |
 | **Programming languages** | **2** |
@@ -27,14 +27,14 @@ The skills below are inferred from solution folders and problem names. Counts ca
 | Skill | Questions |
 | --- | ---: |
 | Dynamic Programming | 5 |
-| Graph Algorithms | 5 |
+| Graph Algorithms | 6 |
 | Breadth-First Search | 3 |
-| Graph Traversal | 4 |
+| Graph Traversal | 5 |
 | Arrays | 2 |
 | Trees | 2 |
 | Binary Search | 1 |
 | Bit Manipulation | 1 |
-| Depth-First Search | 1 |
+| Depth-First Search | 2 |
 | Greedy Algorithms | 1 |
 | Hash Tables | 1 |
 | Heaps / Priority Queues | 1 |
@@ -48,8 +48,8 @@ The skills below are inferred from solution folders and problem names. Counts ca
 | Platform | Solved |
 | --- | ---: |
 | LeetCode | 16 |
-| GeeksforGeeks | 10 |
-| **Total** | **26** |
+| GeeksforGeeks | 11 |
+| **Total** | **27** |
 
 | Language | Solved |
 | --- | ---: |
@@ -60,13 +60,13 @@ The skills below are inferred from solution folders and problem names. Counts ca
 
 | Platform | Basic / Easy | Medium | Hard |
 | --- | ---: | ---: | ---: |
-| GeeksforGeeks | 6 | 3 | 1 |
+| GeeksforGeeks | 6 | 4 | 1 |
 | LeetCode | — | — | — |
 
 ## Activity summary
 
-- **Today:** 2 questions solved.
-- **This month:** 7 questions solved in November.
+- **Today:** 3 questions solved.
+- **This month:** 8 questions solved in November.
 - **Before this month:** 19 questions solved in October.
 - **Most productive day:** 2026-10-30 with 7 questions.
 - **Current streak:** 3 calendar days with solutions added (November 2–4).
@@ -75,6 +75,7 @@ The skills below are inferred from solution folders and problem names. Counts ca
 
 | Question | Platform | Skill / category | Solved on |
 | --- | --- | --- | --- |
+| `Directed Graph Cycle` | GeeksforGeeks | Graph Algorithms / DFS | 2026-11-04 |
 | `3505-Minimum-Operations-to-Make-Elements-Within-K-Subarrays-Equal` | LeetCode | Dynamic Programming | 2026-11-04 |
 | `XOR of All Subarray XORs` | GeeksforGeeks | Bit Manipulation | 2026-11-04 |
 | `3736-Minimum-Moves-to-Equal-Array-Elements-III` | LeetCode | Arrays | 2026-11-03 |
