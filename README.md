@@ -98,7 +98,7 @@ The skills below are inferred from solution folders and problem names. Counts ca
 
 Synced automatically by SolveBase.
 
-**Total solved: 26**
+**Total solved: 27**
 
 ## Codeforces
 
@@ -107,8 +107,9 @@ Solutions by [sd449420](https://codeforces.com/profile/sd449420), organized by d
 **Solved: 0**
 
 | Difficulty | Solved |
-| --- | ---: |
+| --- | --- |
 | — | 0 |
+
 
 ## LeetCode
 
@@ -117,7 +118,7 @@ Solutions organized by primary topic folder.
 **Solved: 16**
 
 | Topic | Solved |
-| --- | ---: |
+| --- | --- |
 | [1-two-sum](./leetcode/1-two-sum) | 1 |
 | [array](./leetcode/array) | 2 |
 | [binary-search](./leetcode/binary-search) | 1 |
@@ -129,34 +130,42 @@ Solutions organized by primary topic folder.
 | [two-pointers](./leetcode/two-pointers) | 1 |
 | [union-find](./leetcode/union-find) | 1 |
 
+
 ## CSES
+
+Solutions from the CSES Problem Set, organized by section.
 
 **Solved: 0**
 
 | Section | Solved |
-| --- | ---: |
+| --- | --- |
 | — | 0 |
 
+
 ## CodeChef
+
+Solutions organized by difficulty rating.
 
 **Solved: 0**
 
 | Difficulty | Solved |
-| --- | ---: |
+| --- | --- |
 | — | 0 |
+
 
 ## GeeksforGeeks
 
 Solutions organized by difficulty level.
 
-**Solved: 10**
+**Solved: 11**
 
 | Difficulty | Solved |
-| --- | ---: |
+| --- | --- |
 | [Basic](./geeksforgeeks/Basic) | 2 |
 | [Easy](./geeksforgeeks/Easy) | 4 |
-| [Medium](./geeksforgeeks/Medium) | 3 |
+| [Medium](./geeksforgeeks/Medium) | 4 |
 | [Hard](./geeksforgeeks/Hard) | 1 |
+
 
 _Last updated: 2026-11-04_
 <!-- /cf-sync -->
