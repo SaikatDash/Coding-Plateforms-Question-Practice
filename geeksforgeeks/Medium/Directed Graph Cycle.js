@@ -10,15 +10,15 @@ class Solution:
                 indegrees[v] += 1
 
         queue = deque()
+        result = []
+
         for i in range(V):
             if indegrees[i] == 0:
                 queue.append(i)
 
-        processed = 0
-
         while queue:
             current_node = queue.popleft()
-            processed += 1
+            result.append(current_node)
 
             for adjNode in adj[current_node]:
                 indegrees[adjNode] -= 1
@@ -26,78 +26,75 @@ class Solution:
                 if indegrees[adjNode] == 0:
                     queue.append(adjNode)
 
-        return processed != V
+        return len(result) != V
         
-'''from collections import deque  # Provides a queue with efficient removal from the front.
+'''from collections import deque  # Queue for vertices with indegree zero.
 
 
-class Solution:
-    def isCyclic(self, adj):
-        # Dry-run example:
-        # adj = [[1], [2], [1]]
-        # Edges: 0 -> 1, 1 -> 2, 2 -> 1
-        # Vertices 1 and 2 form a directed cycle.
+   class Solution:
+       def isCyclic(self, adj):
+           # Dry run: adj = [[1], [2], [1]]
+           # Edges: 0 -> 1, 1 -> 2, 2 -> 1.
+           # Vertices 1 and 2 form a cycle.
 
-        # Count the vertices.
-        # Dry run: V = 3.
-        V = len(adj)
+           # Find the number of vertices.
+           # Dry run: V = 3.
+           V = len(adj)
 
-        # indegrees[v] counts the incoming edges to vertex v.
-        # Dry run: initially indegrees = [0, 0, 0].
-        indegrees = [0] * V
+           # Store the number of incoming edges for each vertex.
+           # Dry run: indegrees = [0, 0, 0].
+           indegrees = [0] * V
 
-        # Visit every edge u -> v and increase v's indegree.
-        for u in range(V):
-            for v in adj[u]:
-                indegrees[v] += 1
-                # Dry run:
-                # 0 -> 1: indegrees = [0, 1, 0]
-                # 1 -> 2: indegrees = [0, 1, 1]
-                # 2 -> 1: indegrees = [0, 2, 1]
+           # For every edge u -> v, increase v's indegree.
+           for u in range(V):
+               for v in adj[u]:
+                   indegrees[v] += 1
 
-        # Collect vertices with no incoming edges.
-        # These vertices can be processed immediately.
-        queue = deque()
-        for i in range(V):
-            if indegrees[i] == 0:
-                queue.append(i)
+           # Dry run:
+           # After 0 -> 1: [0, 1, 0]
+           # After 1 -> 2: [0, 1, 1]
+           # After 2 -> 1: [0, 2, 1]
 
-        # Dry run: only vertex 0 has indegree zero.
-        # queue = deque([0])
+           queue = deque()
 
-        # Track how many vertices we successfully process.
-        processed = 0
+           # Store vertices in the order they are removed from the queue.
+           result = []
 
-        # Continue until there are no available vertices.
-        while queue:
-            # Remove the next vertex from the front.
-            # Dry run: current_node = 0; queue becomes empty.
-            current_node = queue.popleft()
+           # Add all vertices with no incoming edges.
+           for i in range(V):
+               if indegrees[i] == 0:
+                   queue.append(i)
 
-            # Count this vertex as processed.
-            # Dry run: processed = 1.
-            processed += 1
+           # Dry run: queue = deque([0]), result = [].
 
-            # Remove the current vertex's outgoing edges logically
-            # by decreasing the indegree of each neighbor.
-            for adjNode in adj[current_node]:
-                indegrees[adjNode] -= 1
-                # Dry run: neighbor 1's indegree decreases from 2 to 1.
-                # indegrees = [0, 1, 1]
+           while queue:
+               # Remove the front vertex.
+               # Dry run: current_node = 0, queue = deque([]).
+               current_node = queue.popleft()
 
-                # A neighbor becomes available only when all its
-                # incoming edges have been removed.
-                if indegrees[adjNode] == 0:
-                    queue.append(adjNode)
+               # Save the removed vertex in the result array.
+               # Dry run: result = [0].
+               result.append(current_node)
 
-                # Dry run: vertex 1 still has indegree 1,
-                # so it is not added to the queue.
+               # Decrease each neighbor's indegree to represent
+               # removing the outgoing edges of current_node.
+               for adjNode in adj[current_node]:
+                   indegrees[adjNode] -= 1
 
-        # Dry run: the queue is empty, so processing stops.
-        # Vertices 1 and 2 remain blocked by their cycle.
-        # processed = 1, V = 3 -> return True.
-        #
-        # If every vertex is processed, there is no cycle:
-        # processed == V -> return False.
-        return processed != V
+                   # Dry run: edge 0 -> 1 is removed.
+                   # indegrees changes from [0, 2, 1] to [0, 1, 1].
+
+                   # Add a neighbor when no incoming edges remain.
+                   if indegrees[adjNode] == 0:
+                       queue.append(adjNode)
+
+                   # Dry run: vertex 1 still has indegree 1,
+                   # so it is not added to the queue.
+
+           # Dry run: the queue is empty and result = [0].
+           # Vertices 1 and 2 could not be added because of the cycle.
+           # len(result) = 1, V = 3 -> return True.
+           #
+           # If result contains all V vertices, there is no cycle.
+           return len(result) != V
         '''
