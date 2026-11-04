@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" role="img" aria-labelledby="title desc">
+<title id="title">Daily solving efficiency</title>
+<desc id="desc">Daily questions solved with a 3-day moving average.</desc>
+<rect width="920" height="420" rx="14" fill="#0d1117"/>
+<text x="30" y="40" fill="#f0f6fc" font-size="23" font-family="Arial">Daily solving efficiency</text>
+<text x="30" y="66" fill="#8b949e" font-size="14" font-family="Arial">Average: 3.5 questions per active day • Peak: 7 on October 30</text>
+<line x1="75" y1="330" x2="870" y2="330" stroke="#30363d"/>
+<line x1="75" y1="90" x2="75" y2="330" stroke="#30363d"/>
+<text x="60" y="335" text-anchor="end" fill="#8b949e" font-size="12" font-family="Arial">0</text><text x="60" y="215" text-anchor="end" fill="#8b949e" font-size="12" font-family="Arial">4</text><text x="60" y="95" text-anchor="end" fill="#8b949e" font-size="12" font-family="Arial">8</text>
+<line x1="75" y1="210" x2="870" y2="210" stroke="#21262d"/><line x1="75" y1="90" x2="870" y2="90" stroke="#21262d"/>
+<polyline points="113,180 198,300 283,270 368,120 453,210 538,330 623,240 708,270 793,210" fill="none" stroke="#58a6ff" stroke-width="3"/>
+<polyline points="113,180 198,240 283,250 368,170 453,200 538,220 623,260 708,270 793,247" fill="none" stroke="#f0883e" stroke-width="3" stroke-dasharray="7 5"/>
+<circle cx="113" cy="180" r="5" fill="#58a6ff"/><circle cx="198" cy="300" r="5" fill="#58a6ff"/><circle cx="283" cy="270" r="5" fill="#58a6ff"/><circle cx="368" cy="120" r="5" fill="#58a6ff"/><circle cx="453" cy="210" r="5" fill="#58a6ff"/><circle cx="538" cy="330" r="5" fill="#58a6ff"/><circle cx="623" cy="240" r="5" fill="#58a6ff"/><circle cx="708" cy="270" r="5" fill="#58a6ff"/><circle cx="793" cy="210" r="5" fill="#58a6ff"/>
+<text x="113" y="355" text-anchor="middle" fill="#8b949e" font-size="12" font-family="Arial">Oct 18</text><text x="283" y="355" text-anchor="middle" fill="#8b949e" font-size="12" font-family="Arial">Oct 28</text><text x="453" y="355" text-anchor="middle" fill="#8b949e" font-size="12" font-family="Arial">Oct 31</text><text x="623" y="355" text-anchor="middle" fill="#8b949e" font-size="12" font-family="Arial">Nov 2</text><text x="793" y="355" text-anchor="middle" fill="#8b949e" font-size="12" font-family="Arial">Nov 4</text>
+<line x1="45" y1="390" x2="75" y2="390" stroke="#58a6ff" stroke-width="3"/><text x="85" y="395" fill="#8b949e" font-size="12" font-family="Arial">Daily output</text><line x1="190" y1="390" x2="220" y2="390" stroke="#f0883e" stroke-width="3" stroke-dasharray="7 5"/><text x="230" y="395" fill="#8b949e" font-size="12" font-family="Arial">3-day moving average</text>
+</svg>

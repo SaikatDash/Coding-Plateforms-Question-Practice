@@ -11,14 +11,26 @@
 
 | Metric | Result |
 | --- | ---: |
-| **Total questions solved** | **27** |
-| **Solved today (2026-11-04)** | **3** |
-| **Solved this month (November 2026)** | **8** |
+| **Total questions solved** | **28** |
+| **Solved today (2026-11-04)** | **4** |
+| **Solved this month (November 2026)** | **9** |
 | **Solved before this month** | **19** |
+| **Active solving days** | **8** |
+| **Average per active day** | **3.5** |
 | **Platforms** | **2** |
 | **Programming languages** | **2** |
 
 ![Questions solved by month](./assets/progress-by-month.svg)
+
+## Day-to-day progress
+
+![Daily questions solved](./assets/daily-progress.svg)
+
+## Daily efficiency
+
+Efficiency is measured as questions solved per active solving day. The chart compares daily output with a 3-day moving average.
+
+![Daily solving efficiency](./assets/daily-efficiency.svg)
 
 ## Programming skills demonstrated
 
@@ -47,9 +59,9 @@ The skills below are inferred from solution folders and problem names. Counts ca
 
 | Platform | Solved |
 | --- | ---: |
-| LeetCode | 16 |
+| LeetCode | 17 |
 | GeeksforGeeks | 11 |
-| **Total** | **27** |
+| **Total** | **28** |
 
 | Language | Solved |
 | --- | ---: |
@@ -65,16 +77,18 @@ The skills below are inferred from solution folders and problem names. Counts ca
 
 ## Activity summary
 
-- **Today:** 3 questions solved.
-- **This month:** 8 questions solved in November.
+- **Today:** 4 questions solved.
+- **This month:** 9 questions solved in November.
 - **Before this month:** 19 questions solved in October.
 - **Most productive day:** 2026-10-30 with 7 questions.
+- **Average efficiency:** 3.5 questions per active solving day.
 - **Current streak:** 3 calendar days with solutions added (November 2–4).
 
 ## Latest solved questions
 
 | Question | Platform | Skill / category | Solved on |
 | --- | --- | --- | --- |
+| `462-Minimum-Moves-to-Equal-Array-Elements-II` | LeetCode | Arrays / Sorting | 2026-11-04 |
 | `Directed Graph Cycle` | GeeksforGeeks | Graph Algorithms / DFS | 2026-11-04 |
 | `3505-Minimum-Operations-to-Make-Elements-Within-K-Subarrays-Equal` | LeetCode | Dynamic Programming | 2026-11-04 |
 | `XOR of All Subarray XORs` | GeeksforGeeks | Bit Manipulation | 2026-11-04 |
@@ -178,7 +192,7 @@ _Last updated: 2026-11-04_
 
 Synced automatically by SolveBase.
 
-**Total solved: 27**
+**Total solved: 28**
 
 ## Codeforces
 
@@ -195,12 +209,12 @@ Solutions by [sd449420](https://codeforces.com/profile/sd449420), organized by d
 
 Solutions organized by primary topic folder.
 
-**Solved: 16**
+**Solved: 17**
 
 | Topic | Solved |
 | --- | --- |
 | [1-two-sum](./leetcode/1-two-sum) | 1 |
-| [array](./leetcode/array) | 2 |
+| [array](./leetcode/array) | 3 |
 | [binary-search](./leetcode/binary-search) | 1 |
 | [breadth-first-search](./leetcode/breadth-first-search) | 2 |
 | [dynamic-programming](./leetcode/dynamic-programming) | 4 |
