@@ -1,6 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
-<rect width="900" height="350" rx="14" fill="#0d1117"/>
-<text x="30" y="38" fill="#f0f6fc" font-size="22" font-family="Arial">Questions solved by month</text>
-<line x1="70" y1="280" x2="850" y2="280" stroke="#30363d"/>
-<rect x="90" y="222.1" width="70" height="57.9" rx="6" fill="#58a6ff"/><text x="125" y="310" text-anchor="middle" fill="#8b949e" font-size="13">2026-11</text><text x="125" y="214.1" text-anchor="middle" fill="#f0f6fc" font-size="14">5</text><rect x="215" y="60.0" width="70" height="220.0" rx="6" fill="#58a6ff"/><text x="250" y="310" text-anchor="middle" fill="#8b949e" font-size="13">2026-10</text><text x="250" y="52.0" text-anchor="middle" fill="#f0f6fc" font-size="14">19</text><rect x="340" y="280.0" width="70" height="0.0" rx="6" fill="#58a6ff"/><text x="375" y="310" text-anchor="middle" fill="#8b949e" font-size="13">2026-09</text><text x="375" y="272.0" text-anchor="middle" fill="#f0f6fc" font-size="14">0</text><rect x="465" y="280.0" width="70" height="0.0" rx="6" fill="#58a6ff"/><text x="500" y="310" text-anchor="middle" fill="#8b949e" font-size="13">2026-08</text><text x="500" y="272.0" text-anchor="middle" fill="#f0f6fc" font-size="14">0</text><rect x="590" y="280.0" width="70" height="0.0" rx="6" fill="#58a6ff"/><text x="625" y="310" text-anchor="middle" fill="#8b949e" font-size="13">2026-07</text><text x="625" y="272.0" text-anchor="middle" fill="#f0f6fc" font-size="14">0</text><rect x="715" y="280.0" width="70" height="0.0" rx="6" fill="#58a6ff"/><text x="750" y="310" text-anchor="middle" fill="#8b949e" font-size="13">2026-06</text><text x="750" y="272.0" text-anchor="middle" fill="#f0f6fc" font-size="14">0</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+<title id="title">Questions solved by month</title>
+<desc id="desc">October 2026: 19 questions. November 2026: 7 questions.</desc>
+<rect width="760" height="360" rx="14" fill="#0d1117"/>
+<text x="30" y="40" fill="#f0f6fc" font-size="23" font-family="Arial">Questions solved by month</text>
+<text x="30" y="66" fill="#8b949e" font-size="14" font-family="Arial">26 total • 2 solved today • 7 solved this month</text>
+<line x1="90" y1="290" x2="700" y2="290" stroke="#30363d"/>
+<line x1="90" y1="100" x2="90" y2="290" stroke="#30363d"/>
+<text x="70" y="295" text-anchor="end" fill="#8b949e" font-size="12" font-family="Arial">0</text>
+<text x="70" y="200" text-anchor="end" fill="#8b949e" font-size="12" font-family="Arial">10</text>
+<text x="70" y="105" text-anchor="end" fill="#8b949e" font-size="12" font-family="Arial">20</text>
+<line x1="90" y1="195" x2="700" y2="195" stroke="#21262d"/>
+<line x1="90" y1="100" x2="700" y2="100" stroke="#21262d"/>
+<rect x="190" y="109.5" width="130" height="180.5" rx="7" fill="#58a6ff"/>
+<text x="255" y="101" text-anchor="middle" fill="#f0f6fc" font-size="15" font-family="Arial">19</text>
+<text x="255" y="320" text-anchor="middle" fill="#8b949e" font-size="14" font-family="Arial">October 2026</text>
+<rect x="470" y="223.5" width="130" height="66.5" rx="7" fill="#3fb950"/>
+<text x="535" y="215" text-anchor="middle" fill="#f0f6fc" font-size="15" font-family="Arial">7</text>
+<text x="535" y="320" text-anchor="middle" fill="#8b949e" font-size="14" font-family="Arial">November 2026</text>
 </svg>

@@ -1,85 +1,165 @@
 # Competitive Programming Progress
 
-> A living dashboard of my data structures, algorithms, and problem-solving practice.
+> A visual, Git-backed dashboard of my data structures, algorithms, and problem-solving practice.
 
 ![Python](https://img.shields.io/badge/Python-solutions-3776AB?logo=python&logoColor=white)
-![Problems solved](https://img.shields.io/badge/Problems%20solved-24-brightgreen)
-![Updated](https://img.shields.io/badge/Updated-2026-11-03-blue)
+![C++](https://img.shields.io/badge/C%2B%2B-solutions-00599C?logo=cplusplus&logoColor=white)
+![Problems solved](https://img.shields.io/badge/Problems%20solved-26-brightgreen)
+![Updated](https://img.shields.io/badge/Updated-2026--11--04-blue)
 
-## At a glance
+## Progress at a glance
 
-| Metric | Count |
+| Metric | Result |
 | --- | ---: |
-| **Total solved** | **24** |
-| **Solved today (2026-11-03)** | **1** |
-| **Solved this month (November 2026)** | **5** |
-| **Platforms / tracks** | **3** |
-| **Skills / categories** | **15** |
-
-## Skills practiced
-
-| Skill / category | Solved |
-| --- | ---: |
-| Easy | 4 |
-| Dynamic Programming | 3 |
-| Basic | 2 |
-| Breadth First Search | 2 |
-| Medium | 2 |
-| Tree | 2 |
-| 1 Two Sum | 1 |
-| Array | 1 |
-| Binary Search | 1 |
-| Generate Readme | 1 |
-| Graph | 1 |
-| Hard | 1 |
-| Hash Table | 1 |
-| Two Pointers | 1 |
-| Union Find | 1 |
-
-![Skills and topics practiced](./assets/skills.svg)
-
-## Platform progress
-
-| Platform | Solved |
-| --- | ---: |
-| Leetcode | 14 |
-| Geeksforgeeks | 9 |
-| Scripts | 1 |
-
-## Monthly trend
+| **Total questions solved** | **26** |
+| **Solved today (2026-11-04)** | **2** |
+| **Solved this month (November 2026)** | **7** |
+| **Solved before this month** | **19** |
+| **Platforms** | **2** |
+| **Programming languages** | **2** |
 
 ![Questions solved by month](./assets/progress-by-month.svg)
 
-## Analysis report
+## Programming skills demonstrated
 
-- **Coverage:** 24 questions across 3 platforms/tracks, with Leetcode contributing the most (14).
-- **Strongest topic:** Easy is currently the most practiced category with 4 solved questions.
-- **Current momentum:** 1 solved today and 5 solved this month (November 2026).
-- **Best solving day:** 2026-10-30 was the most productive day with 7 question(s).
+The skills below are inferred from solution folders and problem names. Counts can overlap because one question may demonstrate multiple techniques.
+
+| Skill | Questions |
+| --- | ---: |
+| Dynamic Programming | 5 |
+| Graph Algorithms | 5 |
+| Breadth-First Search | 3 |
+| Graph Traversal | 4 |
+| Arrays | 2 |
+| Trees | 2 |
+| Binary Search | 1 |
+| Bit Manipulation | 1 |
+| Depth-First Search | 1 |
+| Greedy Algorithms | 1 |
+| Hash Tables | 1 |
+| Heaps / Priority Queues | 1 |
+| Two Pointers | 1 |
+| Union-Find | 1 |
+
+![Skills and topics practiced](./assets/skills.svg)
+
+## Platform and language breakdown
+
+| Platform | Solved |
+| --- | ---: |
+| LeetCode | 16 |
+| GeeksforGeeks | 10 |
+| **Total** | **26** |
+
+| Language | Solved |
+| --- | ---: |
+| Python | 25 |
+| C++ | 1 |
+
+## Difficulty breakdown
+
+| Platform | Basic / Easy | Medium | Hard |
+| --- | ---: | ---: | ---: |
+| GeeksforGeeks | 6 | 3 | 1 |
+| LeetCode | — | — | — |
+
+## Activity summary
+
+- **Today:** 2 questions solved.
+- **This month:** 7 questions solved in November.
+- **Before this month:** 19 questions solved in October.
+- **Most productive day:** 2026-10-30 with 7 questions.
+- **Current streak:** 3 calendar days with solutions added (November 2–4).
 
 ## Latest solved questions
 
 | Question | Platform | Skill / category | Solved on |
 | --- | --- | --- | --- |
-| `Topological Sort` | Geeksforgeeks | Medium | 2026-11-03 |
-| `generate_readme` | Scripts | Generate Readme.Py | 2026-11-02 |
-| `130-Surrounded-Regions` | Leetcode | Union Find | 2026-11-02 |
-| `542-01-Matrix` | Leetcode | Dynamic Programming | 2026-11-02 |
-| `453-Minimum-Moves-to-Equal-Array-Elements` | Leetcode | Array | 2026-11-02 |
-| `3665-Twisted-Mirror-Path-Count` | Leetcode | Dynamic Programming | 2026-10-31 |
-| `733-Flood-Fill` | Leetcode | Breadth First Search | 2026-10-31 |
-| `Optimal File Merge` | Geeksforgeeks | Medium | 2026-10-31 |
-| `Maximum Packages within Time` | Geeksforgeeks | Easy | 2026-10-31 |
-| `3841-Palindromic-Path-Queries-in-a-Tree` | Leetcode | Tree | 2026-10-30 |
+| `3505-Minimum-Operations-to-Make-Elements-Within-K-Subarrays-Equal` | LeetCode | Dynamic Programming | 2026-11-04 |
+| `XOR of All Subarray XORs` | GeeksforGeeks | Bit Manipulation | 2026-11-04 |
+| `3736-Minimum-Moves-to-Equal-Array-Elements-III` | LeetCode | Arrays | 2026-11-03 |
+| `Topological Sort` | GeeksforGeeks | Graph Algorithms | 2026-11-03 |
+| `130-Surrounded-Regions` | LeetCode | Union-Find | 2026-11-02 |
+| `542-01-Matrix` | LeetCode | Dynamic Programming / BFS | 2026-11-02 |
+| `453-Minimum-Moves-to-Equal-Array-Elements` | LeetCode | Arrays | 2026-11-02 |
 
 ## Repository layout
 
 - [`leetcode/`](./leetcode) — LeetCode solutions organized by algorithm/topic.
 - [`geeksforgeeks/`](./geeksforgeeks) — GeeksforGeeks solutions organized by difficulty.
-- [`scripts/generate_readme.py`](./scripts/generate_readme.py) — regenerates this dashboard from Git history.
-- [`assets/`](./assets) — generated SVG charts embedded above.
+- [`assets/`](./assets) — SVG charts embedded in this dashboard.
 
-<sub>Generated automatically from tracked solution files and their first-added Git commit. Last updated: 2026-11-03.</sub>
+<sub>Stats are based on tracked solution files and their first-added Git commit. Last updated: 2026-11-04.</sub>
+
+---
+
+<!-- cf-sync -->
+# Competitive Programming Solutions
+
+Synced automatically by SolveBase.
+
+**Total solved: 26**
+
+## Codeforces
+
+Solutions by [sd449420](https://codeforces.com/profile/sd449420), organized by difficulty rating.
+
+**Solved: 0**
+
+| Difficulty | Solved |
+| --- | ---: |
+| — | 0 |
+
+## LeetCode
+
+Solutions organized by primary topic folder.
+
+**Solved: 16**
+
+| Topic | Solved |
+| --- | ---: |
+| [1-two-sum](./leetcode/1-two-sum) | 1 |
+| [array](./leetcode/array) | 2 |
+| [binary-search](./leetcode/binary-search) | 1 |
+| [breadth-first-search](./leetcode/breadth-first-search) | 2 |
+| [dynamic-programming](./leetcode/dynamic-programming) | 4 |
+| [graph](./leetcode/graph) | 1 |
+| [hash-table](./leetcode/hash-table) | 1 |
+| [tree](./leetcode/tree) | 2 |
+| [two-pointers](./leetcode/two-pointers) | 1 |
+| [union-find](./leetcode/union-find) | 1 |
+
+## CSES
+
+**Solved: 0**
+
+| Section | Solved |
+| --- | ---: |
+| — | 0 |
+
+## CodeChef
+
+**Solved: 0**
+
+| Difficulty | Solved |
+| --- | ---: |
+| — | 0 |
+
+## GeeksforGeeks
+
+Solutions organized by difficulty level.
+
+**Solved: 10**
+
+| Difficulty | Solved |
+| --- | ---: |
+| [Basic](./geeksforgeeks/Basic) | 2 |
+| [Easy](./geeksforgeeks/Easy) | 4 |
+| [Medium](./geeksforgeeks/Medium) | 3 |
+| [Hard](./geeksforgeeks/Hard) | 1 |
+
+_Last updated: 2026-11-04_
+<!-- /cf-sync -->
 
 ---
 
