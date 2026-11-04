@@ -88,7 +88,7 @@
 
 Synced automatically by SolveBase.
 
-**Total solved: 24**
+**Total solved: 25**
 
 ## Codeforces
 
@@ -147,15 +147,15 @@ Solutions organized by difficulty rating.
 
 Solutions organized by difficulty level.
 
-**Solved: 9**
+**Solved: 10**
 
 | Difficulty | Solved |
 | --- | --- |
 | [Basic](./geeksforgeeks/Basic) | 2 |
 | [Easy](./geeksforgeeks/Easy) | 4 |
-| [Medium](./geeksforgeeks/Medium) | 2 |
+| [Medium](./geeksforgeeks/Medium) | 3 |
 | [Hard](./geeksforgeeks/Hard) | 1 |
 
 
-_Last updated: 2026-11-03_
+_Last updated: 2026-11-04_
 <!-- /cf-sync -->
