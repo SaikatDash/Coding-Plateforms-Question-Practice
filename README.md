@@ -4,19 +4,19 @@
 
 ![Python](https://img.shields.io/badge/Python-solutions-3776AB?logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-solutions-00599C?logo=cplusplus&logoColor=white)
-![Problems solved](https://img.shields.io/badge/Problems%20solved-27-brightgreen)
-![Updated](https://img.shields.io/badge/Updated-2026--11--04-blue)
+![Problems solved](https://img.shields.io/badge/Problems%20solved-36-brightgreen)
+![Updated](https://img.shields.io/badge/Updated-2026--11--07-blue)
 
 ## Progress at a glance
 
 | Metric | Result |
 | --- | ---: |
-| **Total questions solved** | **28** |
-| **Solved today (2026-11-04)** | **4** |
-| **Solved this month (November 2026)** | **9** |
-| **Solved before this month** | **19** |
-| **Active solving days** | **8** |
-| **Average per active day** | **3.5** |
+| **Total questions solved** | **36** |
+| **Solved today (2026-11-07)** | **5** |
+| **Solved this month (November 2026)** | **19** |
+| **Solved before this month** | **17** |
+| **Active solving days** | **9** |
+| **Average per active day** | **4.0** |
 | **Platforms** | **2** |
 | **Programming languages** | **2** |
 
@@ -39,16 +39,16 @@ The skills below are inferred from solution folders and problem names. Counts ca
 | Skill | Questions |
 | --- | ---: |
 | Dynamic Programming | 5 |
-| Graph Algorithms | 6 |
-| Breadth-First Search | 3 |
-| Graph Traversal | 5 |
+| Graph Algorithms | 10 |
+| Breadth-First Search | 5 |
+| Graph Traversal | 7 |
 | Arrays | 2 |
 | Trees | 2 |
-| Binary Search | 1 |
+| Binary Search | 2 |
 | Bit Manipulation | 1 |
 | Depth-First Search | 2 |
 | Greedy Algorithms | 1 |
-| Hash Tables | 1 |
+| Hash Tables | 2 |
 | Heaps / Priority Queues | 1 |
 | Two Pointers | 1 |
 | Union-Find | 1 |
@@ -59,35 +59,42 @@ The skills below are inferred from solution folders and problem names. Counts ca
 
 | Platform | Solved |
 | --- | ---: |
-| LeetCode | 17 |
-| GeeksforGeeks | 11 |
-| **Total** | **28** |
+| LeetCode | 21 |
+| GeeksforGeeks | 15 |
+| **Total** | **36** |
 
 | Language | Solved |
 | --- | ---: |
-| Python | 25 |
-| C++ | 1 |
+| Python | 36 |
 
 ## Difficulty breakdown
 
 | Platform | Basic / Easy | Medium | Hard |
 | --- | ---: | ---: | ---: |
-| GeeksforGeeks | 6 | 4 | 1 |
+| GeeksforGeeks | 7 | 7 | 1 |
 | LeetCode | — | — | — |
 
 ## Activity summary
 
-- **Today:** 4 questions solved.
-- **This month:** 9 questions solved in November.
-- **Before this month:** 19 questions solved in October.
-- **Most productive day:** 2026-10-30 with 7 questions.
-- **Average efficiency:** 3.5 questions per active solving day.
-- **Current streak:** 3 calendar days with solutions added (November 2–4).
+- **Today:** 5 questions solved.
+- **This month:** 19 questions solved in November.
+- **Before this month:** 17 questions solved in October.
+- **Most productive day:** 2026-10-30 with 9 questions.
+- **Average efficiency:** 4.0 questions per active solving day.
+- **Current streak:** 1 calendar day with solutions added (November 7).
 
 ## Latest solved questions
 
 | Question | Platform | Skill / category | Solved on |
 | --- | --- | --- | --- |
+| `Shortest Path in Unweighted Graph` | GeeksforGeeks | Graph Algorithms / BFS | 2026-11-07 |
+| `Shortest Path in Directed Acyclic Graph` | GeeksforGeeks | Graph Algorithms / DFS | 2026-11-07 |
+| `Minimum Days` | GeeksforGeeks | Arrays / Greedy | 2026-11-07 |
+| `Generate Usernames` | GeeksforGeeks | Hash Tables | 2026-11-07 |
+| `2747-Count-Zero-Request-Servers` | LeetCode | Sliding Window | 2026-11-07 |
+| `1385-Find-the-Distance-Value-Between-Two-Arrays` | LeetCode | Binary Search | 2026-11-05 |
+| `210-Course-Schedule-II` | LeetCode | Graph Algorithms / BFS | 2026-11-04 |
+| `207-Course-Schedule` | LeetCode | Graph Algorithms / BFS | 2026-11-04 |
 | `462-Minimum-Moves-to-Equal-Array-Elements-II` | LeetCode | Arrays / Sorting | 2026-11-04 |
 | `Directed Graph Cycle` | GeeksforGeeks | Graph Algorithms / DFS | 2026-11-04 |
 | `3505-Minimum-Operations-to-Make-Elements-Within-K-Subarrays-Equal` | LeetCode | Dynamic Programming | 2026-11-04 |
@@ -104,7 +111,7 @@ The skills below are inferred from solution folders and problem names. Counts ca
 - [`geeksforgeeks/`](./geeksforgeeks) — GeeksforGeeks solutions organized by difficulty.
 - [`assets/`](./assets) — SVG charts embedded in this dashboard.
 
-<sub>Stats are based on tracked solution files and their first-added Git commit. Last updated: 2026-11-04.</sub>
+<sub>Stats are based on tracked solution files and their first-added Git commit. Last updated: 2026-11-07.</sub>
 
 ---
 
