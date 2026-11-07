@@ -193,11 +193,6 @@ Solutions organized by difficulty level.
 _Last updated: 2026-11-07_
 <!-- /cf-sync -->
 
----
-
-<!-- cf-sync -->
-# Competitive Programming Solutions
-
 Synced automatically by SolveBase.
 
 **Total solved: 28**
