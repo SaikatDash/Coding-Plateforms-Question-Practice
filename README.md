@@ -119,7 +119,7 @@ The skills below are inferred from solution folders and problem names. Counts ca
 
 Synced automatically by SolveBase.
 
-**Total solved: 37**
+**Total solved: 38**
 
 ## Codeforces
 
@@ -136,7 +136,7 @@ Solutions by [sd449420](https://codeforces.com/profile/sd449420), organized by d
 
 Solutions organized by primary topic folder.
 
-**Solved: 21**
+**Solved: 22**
 
 | Topic | Solved |
 | --- | --- |
@@ -147,6 +147,7 @@ Solutions organized by primary topic folder.
 | [dynamic-programming](./leetcode/dynamic-programming) | 4 |
 | [graph](./leetcode/graph) | 3 |
 | [hash-table](./leetcode/hash-table) | 1 |
+| [heap-priority-queue](./leetcode/heap-priority-queue) | 1 |
 | [sliding-window](./leetcode/sliding-window) | 1 |
 | [tree](./leetcode/tree) | 2 |
 | [two-pointers](./leetcode/two-pointers) | 1 |
