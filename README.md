@@ -3,7 +3,6 @@
 > A visual, Git-backed dashboard of my data structures, algorithms, and problem-solving practice.
 
 ![Python](https://img.shields.io/badge/Python-solutions-3776AB?logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-solutions-00599C?logo=cplusplus&logoColor=white)
 ![Problems solved](https://img.shields.io/badge/Problems%20solved-36-brightgreen)
 ![Updated](https://img.shields.io/badge/Updated-2026--11--07-blue)
 
@@ -18,7 +17,7 @@
 | **Active solving days** | **9** |
 | **Average per active day** | **4.0** |
 | **Platforms** | **2** |
-| **Programming languages** | **2** |
+| **Programming languages** | **1** |
 
 ![Questions solved by month](./assets/progress-by-month.svg)
 
@@ -191,78 +190,4 @@ Solutions organized by difficulty level.
 
 
 _Last updated: 2026-11-07_
-<!-- /cf-sync -->
-
-Synced automatically by SolveBase.
-
-**Total solved: 28**
-
-## Codeforces
-
-Solutions by [sd449420](https://codeforces.com/profile/sd449420), organized by difficulty rating.
-
-**Solved: 0**
-
-| Difficulty | Solved |
-| --- | --- |
-| — | 0 |
-
-
-## LeetCode
-
-Solutions organized by primary topic folder.
-
-**Solved: 17**
-
-| Topic | Solved |
-| --- | --- |
-| [1-two-sum](./leetcode/1-two-sum) | 1 |
-| [array](./leetcode/array) | 3 |
-| [binary-search](./leetcode/binary-search) | 1 |
-| [breadth-first-search](./leetcode/breadth-first-search) | 2 |
-| [dynamic-programming](./leetcode/dynamic-programming) | 4 |
-| [graph](./leetcode/graph) | 1 |
-| [hash-table](./leetcode/hash-table) | 1 |
-| [tree](./leetcode/tree) | 2 |
-| [two-pointers](./leetcode/two-pointers) | 1 |
-| [union-find](./leetcode/union-find) | 1 |
-
-
-## CSES
-
-Solutions from the CSES Problem Set, organized by section.
-
-**Solved: 0**
-
-| Section | Solved |
-| --- | --- |
-| — | 0 |
-
-
-## CodeChef
-
-Solutions organized by difficulty rating.
-
-**Solved: 0**
-
-| Difficulty | Solved |
-| --- | --- |
-| — | 0 |
-
-
-## GeeksforGeeks
-
-Solutions organized by difficulty level.
-
-**Solved: 11**
-
-| Difficulty | Solved |
-| --- | --- |
-| [Basic](./geeksforgeeks/Basic) | 2 |
-| [Easy](./geeksforgeeks/Easy) | 4 |
-| [Medium](./geeksforgeeks/Medium) | 4 |
-| [Hard](./geeksforgeeks/Hard) | 1 |
-
-
-_Last updated: 2026-11-04_
 <!-- /cf-sync -->
