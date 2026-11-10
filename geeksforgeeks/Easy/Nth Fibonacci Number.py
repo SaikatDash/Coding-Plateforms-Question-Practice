@@ -1,4 +1,4 @@
-class Solution:
+'''class Solution:
     def nthFibonacci(self, n: int) -> int:
         memo = {}
 
@@ -12,4 +12,4 @@ class Solution:
             memo[n] = fib(n - 1) + fib(n - 2)
             return memo[n]
 
-        return fib(n)
+        return fib(n)'''
