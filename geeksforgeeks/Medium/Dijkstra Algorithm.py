@@ -24,5 +24,10 @@ class Solution:
                     heapq.heappush(priority_queue, ([dist_travl, adjNode]))
                     #priority_queue.append([dist_travl,adjNode])
         return distance
-        
+
+if __name__ == "__main__":
+    n=int(input("Enter Number of edges : "))
+    graph = [0 for _ in range(n+1)]
+    
+    
         
