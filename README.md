@@ -119,7 +119,7 @@ The skills below are inferred from solution folders and problem names. Counts ca
 
 Synced automatically by SolveBase.
 
-**Total solved: 54**
+**Total solved: 55**
 
 ## Codeforces
 
@@ -136,7 +136,7 @@ Solutions by [sd449420](https://codeforces.com/profile/sd449420), organized by d
 
 Solutions organized by primary topic folder.
 
-**Solved: 33**
+**Solved: 34**
 
 | Topic | Solved |
 | --- | --- |
@@ -145,7 +145,7 @@ Solutions organized by primary topic folder.
 | [backtracking](./leetcode/backtracking) | 1 |
 | [binary-search](./leetcode/binary-search) | 2 |
 | [bit-manipulation](./leetcode/bit-manipulation) | 1 |
-| [breadth-first-search](./leetcode/breadth-first-search) | 2 |
+| [breadth-first-search](./leetcode/breadth-first-search) | 3 |
 | [dynamic-programming](./leetcode/dynamic-programming) | 8 |
 | [graph](./leetcode/graph) | 3 |
 | [hash-table](./leetcode/hash-table) | 1 |
