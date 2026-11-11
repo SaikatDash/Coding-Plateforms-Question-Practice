@@ -119,7 +119,7 @@ The skills below are inferred from solution folders and problem names. Counts ca
 
 Synced automatically by SolveBase.
 
-**Total solved: 55**
+**Total solved: 56**
 
 ## Codeforces
 
@@ -183,12 +183,12 @@ Solutions organized by difficulty rating.
 
 Solutions organized by difficulty level.
 
-**Solved: 21**
+**Solved: 22**
 
 | Difficulty | Solved |
 | --- | --- |
 | [Basic](./geeksforgeeks/Basic) | 2 |
-| [Easy](./geeksforgeeks/Easy) | 7 |
+| [Easy](./geeksforgeeks/Easy) | 8 |
 | [Medium](./geeksforgeeks/Medium) | 11 |
 | [Hard](./geeksforgeeks/Hard) | 1 |
 
